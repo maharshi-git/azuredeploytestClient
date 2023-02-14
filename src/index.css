@@ -31,3 +31,9 @@ code {
   align-self: center;
   align-items: center;
 }
+
+.transparentBtn{
+  background-color: transparent;
+  border: none;
+  color: blueviolet;
+}

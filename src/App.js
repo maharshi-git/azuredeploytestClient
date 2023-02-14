@@ -12,10 +12,14 @@ const LoginPage = () => {
 
   };
 
+  const navRegPage = () => {
+    console.log("register")
+  }
+
   //sdfsdf
 
   return (
-    <form onSubmit={handleSubmit} className="formClass">
+    <form  className="formClass">
       <h5 className="smallMargin">Login</h5>
       <div className="form-group">
         {/* <label htmlFor="username">Username:</label> */}
@@ -39,7 +43,11 @@ const LoginPage = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
       </div>
-      <button type="submit" className="btn btn-success smallMargin appButtonPurple">Login</button>
+      <button onClick={handleSubmit} type="submit" className="btn btn-success smallMargin appButtonPurple">Login</button>
+      <div className="smallMargin">
+        <p>New user?  <button className="transparentBtn" onClick={navRegPage}>Register</button></p>
+        
+      </div>
     </form>
   );
 };
