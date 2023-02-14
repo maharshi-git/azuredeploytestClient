@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'Kidcare'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1A64144F7454891A2A99991453AF996 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FF761C1F36A9456292C0253694F4682F }}
           package: '*.jar'
