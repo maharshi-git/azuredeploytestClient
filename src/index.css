@@ -55,3 +55,11 @@ code {
 .file-inputs{
   text-align: center
 }
+
+.navbarButton{
+  text-align: end;
+}
+
+.navBarStyle{
+  background-color: blueviolet !important;
+}
