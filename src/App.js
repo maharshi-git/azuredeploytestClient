@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './index.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const LoginPage = () => {
   const [username, setUsername] = useState("");
@@ -6,50 +8,38 @@ const LoginPage = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(`Username: ${username} Password: ${password}`); 
-
-    // const authenticate = (username, password) => {
-    //   const user = users.find(
-    //     (user) => user.username === username && user.password === password
-    //   );
-    //   if (!user) {
-    //     return false;
-    //   }
-    //   return true;
-    // };
-    
-    // const result = authenticate("user1", "pass1");
-    // console.log(result); // true
-    
-    // const result2 = authenticate("user3", "pass3");
-    // console.log(result2); // false
+    console.log(`Username: ${username} Password: ${password}`);
 
   };
 
   //sdfsdf
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h1>Login</h1>
-      <div>
-        <label htmlFor="username">Username:</label>
+    <form onSubmit={handleSubmit} className="formClass">
+      <h5 className="smallMargin">Login</h5>
+      <div className="form-group">
+        {/* <label htmlFor="username">Username:</label> */}
         <input
+          placeholder="username"
           type="text"
           id="username"
-value={username}
+          value={username}
+          className="form-control smallMargin"
           onChange={(e) => setUsername(e.target.value)}
         />
       </div>
       <div>
-        <label htmlFor="password">Password:</label>
+        {/* <label htmlFor="password">Password:</label> */}
         <input
+          placeholder="Password"
           type="password"
           id="password"
           value={password}
+          className="form-control smallMargin"
           onChange={(e) => setPassword(e.target.value)}
         />
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" className="btn btn-success smallMargin appButtonPurple">Login</button>
     </form>
   );
 };

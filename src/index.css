@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.purplebackground{
+  background-color: blue;
+}
+
+.formClass{
+  margin: 20%;
+}
+
+.smallMargin{
+  margin: 1rem;
+}
+
+.appButtonPurple{
+  background-color: blueviolet !important;
+  width: 10rem;
+  align-self: center;
+  align-items: center;
+}

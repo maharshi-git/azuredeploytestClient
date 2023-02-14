@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4646df99-5505-4a33-ac10-6dfa63eaa1a0/AppServices/subscriptions/4646df99-5505-4a33-ac10-6dfa63eaa1a0/resourceGroups/DefaultResourceGroup-EA/providers/Microsoft.Web/sites/Kidcare",
+    "appService.deploySubpath": "."
+}
