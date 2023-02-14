@@ -25,6 +25,10 @@ code {
   margin: 1rem;
 }
 
+.MediumMargin{
+  margin: 5rem;
+}
+
 .appButtonPurple{
   background-color: blueviolet !important;
   width: 10rem;
@@ -36,4 +40,18 @@ code {
   background-color: transparent;
   border: none;
   color: blueviolet;
+}
+
+.dragdroparea{
+  height: 10rem;
+  width: 90%;
+  /* margin: 5rem; */
+  border: rgb(225, 225, 225) dotted;
+  border-radius: 1rem;
+  border-width: 0.3rem;
+  text-align: center;
+}
+
+.file-inputs{
+  text-align: center
 }

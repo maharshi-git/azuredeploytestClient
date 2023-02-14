@@ -34,3 +34,5 @@ steps:
     appName: 'Kidcare'
     package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
   displayName: 'Deploy to Azure Web App'
+
+  

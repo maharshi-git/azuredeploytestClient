@@ -46,7 +46,7 @@ const PurpleForm = (navigate) => {
       </Form.Group>
 
       <Button variant="primary" type="submit" className='smallMargin appButtonPurple'>Register</Button>
-      <p className='smallMargin'>Already have an account? <Link to="/">Login</Link></p>
+      <p className='smallMargin'>Already have an account? <Link to="/Login">Login</Link></p>
     </Form>
   );
 };
